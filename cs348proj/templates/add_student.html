@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <title>Add Student</title>
+   </head>
+   <body>
+      <h3>Student form</h3>
+      <form action="/add_stud" method="POST">
+      
+         <label>
+            First Name
+            <input type="text" name="first_name" placeholder="first name..."/>
+         </label>
+
+         <label>
+            Last Name 
+            <input type="text" name= "last_name" placeholder="last name...">
+         </label>
+
+         <label>
+            Age
+            <input type="number" name="age" placeholder="age..">
+         </label>
+         
+         <label>
+            Grade
+            <input type="text" name="grade" placeholder="grade..">
+         </label>
+         
+         <label>
+            Teacher
+            <input type="text" name="teacher" placeholder="teacher..">
+         </label>
+         
+         <label>
+            Gender
+               <select name="gender" id="gender">
+               <option value="M">Male</option>
+               <option value="F">Female</option>
+               </select>
+         </label>
+         
+         <button type="submit">Add</button>
+      </form>
+   </body>
+</html>

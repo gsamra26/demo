@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Test Scores</title>
+  </head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;}
+</style>
+</head>
+<body>
+
+<h2>Subject Data</h2>
+<a href = "/">Home</a>
+
+{{ tests }} tests have been taken in {{ subject }} and the average score is {{ avg }}
+
+</body>
+</html>
